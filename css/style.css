@@ -21,13 +21,13 @@ footer{
     min-height: 50px;
     margin-bottom: 20px;
 }
+
 ul{
     list-style-type: none;
 }
 li{
     display: inline-block;
     padding: 20px 10px;
-    margin-top: 5px;
 }
 a{
     color: grey;
@@ -41,19 +41,33 @@ li:nth-child(1){
     padding-left: 0;
 }
 
+h2{
+    font-size: 30px;
+}
  .slider{
-     background-color: rgb(29, 29, 29);
+     background-image: 
+        linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.8)),
+        url(../img/banner.jpg);
      min-height: 450px;
-     width: 100%;
      margin-bottom: 20px;
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-position: center;
+     border-radius: 10px;
+     padding: 300px 0 40px 30px;
+    
  }
+.opacity{
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 100%;
+}
  .clearfix::after{
      content: "";
      display: table;
      clear: both;
  }
  .float-digger{
-    background-color: black;
+    
     padding-bottom: 15px;
     width: 100%;
     margin-bottom: 5px;
@@ -62,26 +76,67 @@ li:nth-child(1){
  .float-left{
     float: left;
  }
- .fl-color{
-     background-color: rgb(87, 86, 86);
- }
+
+ 
  .top-fl{
     min-height: 70px;
     width: 100%;
     margin-bottom: 15px;
  }
  .fl-side{
-     width: calc(20% - 15px);
+     width: 20%;
+     margin: 0;
      
  }
  .fl-middle{
-    width: 60%;
-    margin: 0 15px; 
+    width: calc(60% - 20px);
+    margin: 0 10px;
 } 
 .column{
     min-height:380px;
 }
+.menu{
+    margin-top: 10px;
+}
+.slider-text{
+    color: white;
+    font-size: 30px;
+    
+}
+.undertext{
+    font-size: 15px;
+}
+
+.box{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 175px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.grey{
+    color: grey;
+}
+
 #logo-image{
     height: 80px;
     padding-top: 20px;
+}
+
+#img1{
+    background-image: 
+    linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.8)),
+    url(../img/img-1.jpg); 
+}
+#img2{
+    background-image: 
+    linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.8)),
+    url(../img/banner-2.jpg); 
+}
+#img3{
+    background-image: 
+    linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.8)),
+    url(../img/img-3.jpg); 
 }
