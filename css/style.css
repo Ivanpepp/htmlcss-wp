@@ -16,10 +16,10 @@ header{
 
 }
 footer{
-    background-color: rgb(209, 209, 209);
-    width: 100%;
     min-height: 50px;
-    margin-bottom: 20px;
+    margin:20px;
+    text-align: center;
+
 }
 
 ul{
@@ -120,6 +120,17 @@ h2{
     color: grey;
 }
 
+.foot{
+    text-align: center;
+    display: inline-block;
+}
+.hand{
+    background-image: url(../img/hand.png);
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background-size: cover;
+}
 #logo-image{
     height: 80px;
     padding-top: 20px;
@@ -140,3 +151,4 @@ h2{
     linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.8)),
     url(../img/img-3.jpg); 
 }
+
