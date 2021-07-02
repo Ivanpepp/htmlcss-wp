@@ -19,7 +19,6 @@ footer{
     min-height: 50px;
     margin:20px;
     text-align: center;
-
 }
 
 ul{
@@ -33,10 +32,7 @@ a{
     color: grey;
     text-decoration: none;
 }
-a:hover{
-    color: black;
-    font-weight: 600;
-}
+
 li:nth-child(1){
     padding-left: 0;
 }
@@ -44,6 +40,9 @@ li:nth-child(1){
 h2{
     font-size: 30px;
 }
+
+
+
  .slider{
      background-image: 
         linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.8)),
@@ -131,10 +130,36 @@ h2{
     width: 40px;
     background-size: cover;
 }
+/* HOVER SECTION */
+.slider:hover{
+    background-image: 
+    linear-gradient(rgba(255, 253, 253, 0.493), rgba(143,0,255,0.8)),
+    url(../img/banner.jpg);
+}
+#img1:hover{
+    background-image: 
+    linear-gradient(rgba(255, 253, 253, 0.493), rgba(143,0,255,0.8)),
+    url(../img/img-1.jpg);
+}
+#img2:hover{
+    background-image: 
+    linear-gradient(rgba(255, 253, 253, 0.493), rgba(143,0,255,0.8)),
+    url(../img/banner-2.jpg);
+}
+#img3:hover{
+    background-image: 
+    linear-gradient(rgba(255, 253, 253, 0.493), rgba(143,0,255,0.8)),
+    url(../img/img-3.jpg);
+}
+a:hover{
+    color: black;
+    font-weight: 600;
+}
 #logo-image{
     height: 80px;
     padding-top: 20px;
 }
+/* END HOVER SECTION */
 
 #img1{
     background-image: 
