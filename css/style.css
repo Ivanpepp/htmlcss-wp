@@ -80,7 +80,7 @@ h2{
  .top-fl{
     min-height: 70px;
     width: 100%;
-    margin-bottom: 15px;
+    margin: 20px 20px;
  }
  .fl-side{
      width: 20%;
@@ -114,6 +114,15 @@ h2{
     border-radius: 10px;
     margin-bottom: 10px;
 }
+.circle-box{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    margin-bottom: 30px;
+}
 
 .grey{
     color: grey;
@@ -130,6 +139,31 @@ h2{
     width: 40px;
     background-size: cover;
 }
+.rtx-side{
+    width: 32%;
+    margin: 20px 0;
+}
+.rtx-middle{
+    width: calc(36% - 40px);
+    margin: 20px 20px;
+}
+.pig{
+    border-radius: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 30px;
+    height: 30px;
+    vertical-align: middle ;
+}
+.rtx-foot{
+    margin-top: 20px;
+    vertical-align: middle;
+}
+span .undertext{
+    
+}
+
 /* HOVER SECTION */
 .slider:hover{
     background-image: 
@@ -159,6 +193,20 @@ a:hover{
     height: 80px;
     padding-top: 20px;
 }
+#rtx-img1:hover{
+    background-image:url(../img/3090.png);
+    background-size: 200px;
+    
+}
+#rtx-img2:hover{
+    background-image:url(../img/3080.jpeg);
+    background-size: 200px;
+}
+#rtx-img3:hover{
+    background-image: url(../img/3070.png);
+    background-size: 200px;
+}
+
 /* END HOVER SECTION */
 
 #img1{
@@ -175,5 +223,20 @@ a:hover{
     background-image: 
     linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.8)),
     url(../img/img-3.jpg); 
+}
+#rtx-img1{
+    background-image: 
+    linear-gradient(rgba(0,0,0,0.1), rgba(82, 255, 2, 0.2)),
+    url(../img/nvidia-conti-640x342.jpg); 
+}
+#rtx-img2{
+    background-image: 
+    linear-gradient(rgba(0,0,0,0.1), rgba(82, 255, 2, 0.2)),
+    url(../img/849056.jpeg); 
+}
+#rtx-img3{
+    background-image: 
+    linear-gradient(rgba(0,0,0,0.1), rgba(82, 255, 2, 0.2)),
+    url(../img/nvidia1200.jpg); 
 }
 
